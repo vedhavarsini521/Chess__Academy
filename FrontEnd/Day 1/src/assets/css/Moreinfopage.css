@@ -1,0 +1,154 @@
+.more1 h2{
+    margin-top: 40px;
+    margin-left: 30px;
+    /* padding: 10px; */
+  }
+  
+  .more1 a{
+    /* color: white; */
+    color: black;
+  }
+  
+  .dashicon{
+    /* margin-top: 40px; */
+    margin-right: 10px;
+  } 
+  .mor1{
+    /* background-color: rgba(27, 22, 98, 0.8); */
+    background-color: rgb(151, 195, 228,0.5);
+    background-size: cover ;
+    height:100vh;
+    width:15%;
+    /* color: white; */
+    color: black;
+    position: fixed;
+    /* margin-top: 20px; */
+  }
+
+  .mor{
+    /* background-color: rgba(27, 22, 98, 0.8); */
+    background-color: rgb(151, 195, 228,0.5);
+
+    /* color: white; */
+    color: black;
+    position: fixed;
+    height: 100vh;
+    width: 15%;
+
+    /* display: flex; */
+  }
+
+  .more{
+    display: flex;
+  }
+
+  .mor2{
+    width: 80%;
+    margin-left: 27%;
+    /* display: flex; */
+    margin-bottom: 30px;
+
+}
+
+.moreinfo{
+    /* background-color:beige; */
+    /* background-image: url(../images/coursebg1.jpg); */
+    background-image: url('../images/background1.jpg');
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* backdrop-filter: ; */
+    background-size: cover;
+    /* background-position: fixed; */
+    background-attachment: fixed;
+    /* height: 100vh; */
+    /* display: flex; */
+    /* width: 80%; */
+
+    /* &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity value (0 is fully transparent, 1 is fully opaque) */
+    /* }  */
+  }
+
+
+
+  /* .mor3 img{
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 100px;
+    width: 130px;
+  } */
+
+  .mor4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    /* display: flex; */
+  }
+
+  .mor7{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mor3{
+    /* background-color: rgba(106, 103, 132, 0.7); */
+    background-color: white;
+    color: black;
+    width: 550px;
+    height: 600px;
+    /* box-shadow: #333; */
+    height: max-content;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+
+
+    
+  }
+
+  .morbut{
+    padding: 12px;
+  }
+  .mor6{
+    margin-right: 30px;
+  }
+
+  .mor3 img{
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 100px;
+    width: 130px;
+  }
+
+  .mor6{
+    color: rgb(8, 87, 6);
+  }
+
+  .mor4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  .mor4 button{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+  }
+
+
+  .mor3 {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .mor3:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+

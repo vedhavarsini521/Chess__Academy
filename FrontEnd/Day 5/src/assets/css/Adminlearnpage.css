@@ -1,0 +1,129 @@
+
+.lsearch-bar{
+    margin-left: 30%;
+    display: flex;
+    /* height: 60px; */
+  }
+  .lsearfont{
+    height: 18px;
+  }
+
+  .lsearch-bar input{
+    border-radius: 2px;
+    margin-top: 20px;
+    height: 30px;
+    width: 400px;
+  }
+
+  .lsearchbar2{
+    margin-top: 23px;
+    margin-left: 10px;
+  }
+
+
+  .lcour2{
+    width: 80%;
+    /* margin-left: 10%; */
+    display: flex;
+    gap:10px;
+    margin-bottom: 30px;
+}
+
+.lcourses{
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+
+
+  }
+
+  .lcourses-container
+  {
+    margin-left: 10%;
+  }
+
+  .lcour3{
+    background-color: white;
+    color: black;
+    width: 250px;
+    /* box-shadow: #333; */
+    height: max-content;
+    margin-left: 90px;
+    /* margin-right: 100px; */
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+
+
+    
+  }
+
+  /* .lcou1{
+    display: flex;
+    /* justify-content: space-between; */
+  /* } */
+
+  .lcou3{
+    margin-top: 10px;
+    margin-left: 40px;
+
+  }
+
+  .lcour3 img{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  .lcour4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  .lstar{
+    /* background-color: rgb(132, 212, 132); */
+    width: 25px;
+    color: rgb(8, 116, 15);
+  }
+
+  .lstar1{
+    background-color: green;
+    color: white;
+    width: 85px;
+    margin-bottom: 20px;
+  }
+
+  .lcour4 button{
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+  }
+
+
+  .lcour3 {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .lcour3:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+
+  
+.lcour-row{
+  display: flex;
+  /* gap:20px; */
+}
+
+
+
+

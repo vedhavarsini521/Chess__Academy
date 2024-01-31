@@ -1,0 +1,76 @@
+.pro h2{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  
+  .pro a{
+    color: black;
+  }
+  
+  .dashicon{
+    margin-right: 10px;
+  } 
+  .pro{
+    background-color: rgb(151, 195, 228,0.5);
+    background-size: cover ;
+    height:100vh;
+    width:17%;
+    color: black;
+  }
+
+  .pro4{
+    display: flex;
+  }
+
+  .prof{
+    display: flex;
+  }
+
+  .pro1{
+    background-color: black;
+    height: 100vh;
+    width: 80%;
+  }
+  .pro5 {
+    background-color: rgba(255, 255, 255, 0.4); 
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 380px;
+    margin-left: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+
+}
+
+  .pro4 h3{
+    align-items: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
+  .proimg img{
+    height: 60px;
+    width: 60px;
+    margin-left: 200px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+  }
+
+  .pro7 img{
+    margin-left: 350px;
+    width: 900px;
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  
+  .pro1{
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    /* height: 100vh; */
+  }

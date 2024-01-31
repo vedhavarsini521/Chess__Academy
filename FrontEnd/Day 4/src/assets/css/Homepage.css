@@ -1,0 +1,88 @@
+.home {
+    font-family: 'Arial', sans-serif; 
+    overflow: hidden; 
+  }
+
+
+.text-section{
+    height: 90vh;
+    /* background-color: #000; */
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+   
+
+}
+.text-section h1{
+    text-align: center;
+    color: rgb(12, 12, 55);
+    font-size: 38px;
+}
+.text-section h3{
+    text-align: center;
+    color: rgb(105, 11, 118);
+    font-size: 25px;
+}
+
+
+
+  .text-section {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+ 
+  .text-section h1,
+.text-section h3 {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  animation-delay: 0.5s;
+}
+  
+  
+  .text-section h3:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .text-section h3:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  
+
+  .image-section {
+    background-image: url('../images/loginbg.jpg'); 
+    background-size: cover;
+    color: white; 
+    padding: 20px;
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideIn 1s forwards;
+    animation-delay: 4s;
+
+    /* animation: fadeIn 1s forwards;
+    animation-delay: 2s;  */
+  }

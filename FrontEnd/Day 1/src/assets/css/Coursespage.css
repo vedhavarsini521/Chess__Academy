@@ -1,0 +1,133 @@
+
+  .search-bar{
+    margin-left: 30%;
+    display: flex;
+    /* height: 60px; */
+  }
+  .searfont{
+    height: 18px;
+  }
+
+  .search-bar input{
+    border-radius: 2px;
+    margin-top: 20px;
+    height: 30px;
+    width: 400px;
+  }
+
+  .searchbar2{
+    margin-top: 23px;
+    margin-left: 10px;
+  }
+
+  .cour{
+    background-color: rgb(151, 195, 228,0.5);
+
+    color: white;
+    position: fixed;
+    width: 15%;
+
+    /* display: flex; */
+  }
+
+  .cours{
+    display: flex;
+  }
+
+  .cour2{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.courses{
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+
+
+  }
+
+  .cour3{
+    background-color: white;
+    color: black;
+    width: 500px;
+    /* box-shadow: #333; */
+    height: max-content;
+    /* margin-left: 30px; */
+    /* margin-right: 100px; */
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+
+
+    
+  }
+
+  .cou1{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+  .cou3{
+    margin-top: 70px;
+    margin-left: 20px;
+
+  }
+
+  .cour3 img{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 200px;
+    width: 230px;
+  }
+
+  .cour4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  .star{
+    /* background-color: rgb(132, 212, 132); */
+    width: 25px;
+    color: rgb(8, 116, 15);
+  }
+
+  .star1{
+    background-color: green;
+    color: white;
+    width: 85px;
+    margin-bottom: 20px;
+  }
+
+  .cour4 button{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50px;
+  }
+
+
+  .cour3 {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .cour3:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+
+  
+.cour-row{
+  display: flex;
+}
+
+
+
+

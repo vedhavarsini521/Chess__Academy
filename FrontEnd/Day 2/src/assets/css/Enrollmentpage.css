@@ -1,0 +1,178 @@
+.ecour1 h2{
+    margin-top: 40px;
+    margin-left: 30px;
+    /* padding: 10px; */
+  }
+  
+  .ecour1 a{
+    color: black;
+  }
+
+  .ecour1 li{
+    margin-top: 20px;
+    margin-left: 60px;
+    list-style: none;
+
+  }
+
+  .dashicon{
+    font-size: 30px;
+  }
+  
+  .dashicon{
+    /* margin-top: 40px; */
+    margin-right: 10px;
+  } 
+  .ecour1{
+    /* background-color: rgba(27, 22, 98, 0.8); */
+    background-color: rgb(151, 195, 228,0.5);
+    background-size: cover ;
+    height:100vh;
+    width:15%;
+    /* color: white; */
+    color: black;
+    position: fixed;
+    /* margin-top: 20px; */
+  }
+
+  .esearch-bar{
+    margin-left: 30%;
+    /* height: 60px; */
+  }
+  .esearfont{
+    height: 18px;
+  }
+
+  .esearch-bar input{
+    border-radius: 2px;
+    margin-top: 20px;
+    /* height: 60px; */
+    width: 350px;
+    margin-left: 130px;
+  }
+
+  .ecour{
+    background-color: rgb(151, 195, 228,0.5);
+    color: black;
+    position: fixed;
+    width: 15%;
+
+    /* display: flex; */
+  }
+
+  .ecours{
+    display: flex;
+  }
+
+  .ecour2{
+    width: 80%;
+    margin-left: 12%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.ecourses{
+
+    background-image: url(../images/background1.jpg);
+
+    background-size: cover;
+    /* background-position: fixed; */
+    background-attachment: fixed;
+    /* height: 100vh; */
+ 
+
+    /* &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity value (0 is fully transparent, 1 is fully opaque) */
+    /* }  */
+  }
+
+  .ecour3{
+    /* background-color: rgba(106, 103, 132, 0.7); */
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    /* box-shadow: #333; */
+    height: max-content;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+
+  }
+
+  .ecour3 img{
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 180px;
+    width: 300px;
+  }
+
+  .ecour3 h2{
+    font-size: 30px;
+  }
+
+  .ecour3 h4{
+    font-size: 20px;
+  }
+
+  .ecour4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  .estar{
+    /* background-color: green; */
+    border-radius: 5px;
+    width: 28px;
+    color: black;
+  }
+
+  .ecour4 button{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    
+  }
+
+  .float{
+    float: right;
+  }
+
+  .float h3{
+    background-color: green;
+    color: white;
+    width: 75px;
+    border-radius: 5px;
+
+  }
+
+  .ecour3 {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .ecour3:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

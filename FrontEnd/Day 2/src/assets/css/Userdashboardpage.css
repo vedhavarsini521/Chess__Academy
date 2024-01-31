@@ -1,0 +1,36 @@
+.dashb
+{
+  display: flex;
+}
+
+.dash{
+  background-color: rgba(101, 164, 213, 0.3);
+  background-size: cover ;
+  height:100vh;
+  width:20%;
+  color: black;
+  /* margin-top: 20px; */
+}
+
+.dash h2{
+  margin-top: 40px;
+  margin-left: 30px;
+  /* padding: 10px; */
+}
+
+.dash a{
+  color: black;
+}
+
+.dashicon{
+  /* margin-top: 40px; */
+  margin-right: 10px;
+} 
+
+.dashboard{
+  /* background-color: azure; */
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}

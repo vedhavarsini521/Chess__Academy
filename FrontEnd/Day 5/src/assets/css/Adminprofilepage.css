@@ -1,0 +1,98 @@
+.student{
+    /* background-color: rgb(215, 218, 218); */
+    background-image: url(../images/background1.jpg);
+
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+.stud1{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.stud2{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+
+
+}
+
+.stud3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.stud2 button{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    /* color: black; */
+}
+
+.stud2 input{
+    width: 50%;
+    margin-left: 40px;
+}
+
+.stud2 label{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.stud{
+    /* background-color:white; */
+    display: flex;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 40px;
+    gap: 30px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.stu{
+    background-color:white;
+    gap: 30px;
+    border-radius: 20px;
+    width: 400px;
+    /* border: 1px solid #ccc; */
+  width: 55%; /* Adjust as needed */
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+
+}
+
+.stu1 button{
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgb(8, 8, 43);
+    color: white;
+    border-radius: 10px;
+    /* justify-content: space-between; */
+
+}
+
+/* margin-right: 10px; */
+
+.stu1{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.stbut{
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgb(8, 8, 43);
+    color: white;
+    border-radius: 10px;
+}
