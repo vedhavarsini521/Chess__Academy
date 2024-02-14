@@ -1,0 +1,112 @@
+/* .dcour2{
+
+    background-image: url(../images/dashbg1.jpg);
+    /* background-size: cover;    
+    background-attachment: fixed; */
+    /* height: 100vh;
+  }  */
+
+.dcour2 img{
+    margin-left: 380px;
+    width: 900px;
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.dcour3{
+    margin-left: 450px;
+    font-size: 50px;
+}
+
+.dcour4
+{
+    background-color: rgb(2, 27, 50);
+
+    display: flex;
+    margin-left: 560px;
+    font-size: 30px;
+    color: white;
+    margin-right: 460px;
+    justify-content: space-between;
+}
+
+.dcour5{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dcour6 h3{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.dcour7{
+    background-color: aliceblue;
+    width: 1200px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+.dcour6{
+    /* background-color: rgb(14, 63, 96); */
+    height: 140px;
+    width: max-content;
+    color:black;
+    border-radius: 10px;
+}
+
+.dcour6 h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.dcour1 h2{
+    margin-top: 40px;
+    margin-left: 30px;
+    /* padding: 10px; */
+  }
+  
+  .dcour1 a{
+    color: black;
+  }
+
+  .dcour1 li{
+    margin-top: 20px;
+    margin-left: 60px;
+    list-style: none;
+
+  }
+
+  .dashicon{
+    font-size: 30px;
+  }
+  
+  .dashicon{
+    /* margin-top: 40px; */
+    margin-right: 10px;
+  } 
+  .dcour1{
+    /* background-color: rgba(27, 22, 98, 0.8); */
+    background-color: rgb(151, 195, 228,0.5);
+
+    background-size: cover ;
+    height:100vh;
+    width:15%;
+    color: black;
+    position: fixed;
+    /* margin-top: 20px; */
+  }
+
+  .dcour{
+    /* background-color: rgba(27, 22, 98, 0.8); */
+    background-color: rgb(151, 195, 228,0.5);
+
+    color:black;
+    position: fixed;
+    width: 15%;
+
+    /* display: flex; */
+  }

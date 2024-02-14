@@ -1,0 +1,34 @@
+
+.loginfo{
+    background-color: rgb(92, 185, 228);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.loginfo2 img{
+    border-radius: 50%;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.loginfo2 h2{
+    font-size: 32px;
+    margin-left: 390px;
+    margin-top: 10px;
+    color: black;
+
+}
+
+.loginfo span{
+    color: #efb82e;
+    font-size: 50px;
+}
+
+
+.loginfo1{
+    display:flex;
+    gap:70px;
+}

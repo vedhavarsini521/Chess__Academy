@@ -1,0 +1,160 @@
+
+
+  .amor2{
+    /* width: 100%; */
+    margin-left: 16%;
+    /* display: flex; */
+    /* margin-bottom: 30px; */
+    /* margin-top: 20px; */
+
+}
+
+.amor2 h1{
+
+  font-size: 70px;
+  color: #efb82e;
+  margin-left: 200px;
+}
+
+.amoreinfo{
+
+  background-color: rgba(227, 219, 219, 0.67);
+  background-size: cover;
+  width: 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+    /* height: 100vh; */
+  }
+
+
+  .amor4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    /* display: flex; */
+  }
+
+  .amor7{
+    /* display: flex; */
+    justify-content: space-between;
+  }
+
+  .amor3{
+    background-color: rgb(186, 182, 182,0.5 );
+    color: black;
+    width: 360px;
+    height: max-content;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 30px;    
+  }
+
+  .amor5 h3{
+    font-size: 22px;
+  }
+
+  .amorbut{
+    padding: 12px;
+  }
+  .amor6{
+    margin-right: 30px;
+  }
+
+
+
+ 
+  .amor4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  .amor4 button{
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: #efb82e;
+    border-radius: 7px;
+    padding: 10px;
+  }
+  .amor4 h2{
+    font-size: 30px;
+    color: rgb(83, 137, 7);
+  }
+
+  .add-course{
+    margin-left: 820px;
+  }
+
+
+  .amor3 {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .amor3:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+
+
+/* Add a specific class for the edit modal */
+.acedit1 {
+    /* Set the width and height as needed */
+    width: 60%;
+    height: 50%;
+    margin: auto; /* Center the modal */
+  }
+  
+  .acedit {
+    /* Style the content within the edit modal */
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+  }
+  
+  .acedit input {
+    /* Style input fields */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .acedit button {
+    /* Style buttons */
+    padding: 12px;
+    margin-right: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .acedit button:last-child {
+    /* Style the Cancel button differently */
+    background-color: gray;
+  }
+  
+  /* Adjust the modal overlay */
+  .ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Adjust the modal content */
+  .ReactModal__Content {
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    border: none;
+  }
+
+  .amor-row{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:30px;
+  }
+  

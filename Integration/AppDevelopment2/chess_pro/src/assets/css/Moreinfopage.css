@@ -1,0 +1,141 @@
+.moreinfo{
+  background-color: white;
+  min-height: 100%;
+}
+
+.mor3{
+  position: relative;
+}
+
+.mor3 h1 {
+  position: absolute;
+  top: 21%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: #efb82e;
+  z-index: 2; /* Place the text above the image */
+}
+
+.mor3 h3 {
+  font-size: 27px;
+  color: rgb(30, 28, 28, 0.8);
+  margin-left: 9%;
+  margin-top: 20px;
+  width: 800px;
+  position: absolute;
+  top: 30%; /* Adjust as needed */
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Place the text above the image */
+}
+
+.mor3 img{
+  margin-left: 4%;
+  opacity: 0.7;
+  width: 96%;
+  /* margin-top: 30px; */
+  
+}
+
+.mo1 h2{
+    font-size: 50px;
+    margin-left: 17%;
+    width: 1200px;
+    margin-top: 30px;
+    color:#efb82e;
+}
+
+.mo1 ul{
+  margin-left: 20%;
+  margin-top: 30px;
+  font-size: 20px;
+  list-style-type: disc; 
+}
+
+.mor5{
+  margin-left: 17%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mor5 h1{
+  font-size: 50px;
+  color: #efb82e;
+}
+.mor5img{
+  margin-top: 30px;
+  display: flex;
+}
+
+.moi1{
+  background-color: rgb(188, 184, 184,0.5);
+  margin-left: 20px;
+  width: 370px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(173, 166, 166, 0.5);
+
+}
+
+.moi1 {
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.moi1:hover {
+  transform: scale(1.1); /* Increase the scale on hover */
+}
+
+.moi1 h2{
+  font-size: 35px;
+  margin-left: 60px;
+  color: rgb(105, 163, 17);
+  margin-top: 20px;
+}
+
+.moi1 h3{
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.morbut{
+  margin-left: 210px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgb(33, 5, 86);
+  border-radius: 6px;
+  color: #efb82e;
+}
+
+.mor6{
+  margin-left: 17%;
+}
+
+.mor6 h3{
+  color: #efb82e;
+  font-size: 33px;
+}
+
+.mor6 h1{
+  color: rgb(47, 44, 44,0.8);
+  font-size: 37px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.morfo{
+  margin-left: 4%;
+  margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .mor3 h1 {
+    font-size: 40px;
+  }
+
+  .mor3 h3 {
+    font-size: 20px;
+  }
+}
