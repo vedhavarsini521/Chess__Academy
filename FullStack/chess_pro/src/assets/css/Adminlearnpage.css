@@ -1,0 +1,128 @@
+
+.lsearch-bar{
+    margin-left: 16%;
+    display: flex;
+    /* height: 60px; */
+  }
+  .lsearfont{
+    height: 18px;
+  }
+
+  .lsearch-bar input{
+    border-radius: 2px;
+    margin-top: 20px;
+    height: 30px;
+    width: 400px;
+  }
+
+  .lsearchbar2{
+    margin-top: 23px;
+    margin-left: 10px;
+  }
+
+
+  /* .lcour2{
+    width: 80%;
+
+    display: flex;
+    gap:10px;
+    margin-bottom: 30px;
+}
+.lcour2 {
+  width: calc(100% / 3 - 20px); 
+} */
+
+.lcour2 {
+  width: calc(33.33% - 20px); /* Adjust width for three academies with gap */
+  margin-right: 20px; /* Add some margin between academies */
+  margin-bottom: 20px; /* Add some margin to the bottom */
+}
+
+.academy-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px; /* Compensate for the margin-right on .lcour2 */
+}
+
+
+
+.lcourses{
+
+    background-color: rgba(227, 219, 219, 0.67);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+
+
+  }
+
+  .lcourses-container
+  {
+    margin-left: 10%;
+  }
+
+  .lcour3{
+    background-color: rgb(186, 182, 182,0.5 );
+    color: black;
+    width: 260px;
+    height: 320px;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */   
+  }
+
+
+  .lcou3{
+    margin-top: 10px;
+    margin-left: 40px;
+
+  }
+
+  .lcour3 img{
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  .lcour4{
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+
+  .lcour4 button{
+    float: right;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+
+
+  .lcour3 {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .lcour3:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+
+  
+.lcour-row{
+  display: flex;
+  /* gap:20px; */
+}
+
+
+
+

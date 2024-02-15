@@ -1,0 +1,34 @@
+.learning-chart {
+    display: flex;
+  }
+  
+  .stage {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .stage-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .stage-description {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .completed {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .current {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
